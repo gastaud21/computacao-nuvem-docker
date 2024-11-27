@@ -1,0 +1,12 @@
+Projeto para avaliação dos conhecimentos de Docker da disciplina de Cloud da Unisenac – Pelotas-RS.
+Foi criado um aplicativo em Node Js, apenas para exibir “Hello World!” no navegador.
+Feitas as configurações do Dockerfile, foi rodado o comando no terminal para construir a imagem:
+docker build -t trabalho-cloud-1 .
+Após criada a imagem, ela foi executada para realizar a criação do container, através do comando:
+docker run -d -p 8080:8080 trabalho-cloud-1
+O terminal então retorna que o servidor está rodando:
+> hello-world@1.0.0 start
+> node server.js
+Server running at http://0.0.0.0:8080/
+
+Conforme imagens em anexo.

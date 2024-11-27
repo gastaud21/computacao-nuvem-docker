@@ -1,0 +1,10 @@
+{
+  "name": "trabalho-docker",
+  "version": "1.0.0",
+  "description": "Trabalho para a disciplina de computação em nuvem",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
